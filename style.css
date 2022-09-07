@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    background-image: url(contato.png);
+    background-repeat:no-repeat;
+    background-size:100% 112%;
+    margin-bottom: 10px;
+}
+   
+
+form{
+    margin:30px;
+    color: white; 
+    
+}
+
+
+.Menu{
+    color:white ;
+    background-color:#0c253a;
+    font-size: 25px;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu ul{
+    list-style-type: none;
+    display: flex;
+}
+.Menu ul li{
+padding-right: 70px;
+
+}
+
+.Menu ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.texto1{
+    color: black; 
+    width:500px; 
+    margin: 0;
+    font-size:20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ios_img{
+    width: 100px;
+    height: 50px;
+}
+
+.prefeiturasp_img{
+    width: 100px;
+    height: 50px;
+}
+
+.parceiros{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.texto2{
+    color: white; 
+    margin: 1px 10px;  
+    font-size: 30px; 
+}
+
+.caixinha{
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 110px;
+    margin: 25px;
+    padding: 10px;
+}
+.contato{
+    color: darkslateblue;
+    margin-top: 25px;
+    float:right;
+    
+}
+
+.contato p{
+    color: white;
+    font-size: 30px;
+    margin: 15px 30px;
+}
+
+.container_caixinhas{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.maly_cursos{
+    align-items: center;
+}
+
+.botao{
+    background-color: bisque;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
